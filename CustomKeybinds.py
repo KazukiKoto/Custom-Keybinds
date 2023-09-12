@@ -10,7 +10,7 @@ def FFxivLogin():
     isLocated=None
     while True:
         try:
-            isLocated = pyautogui.locateOnScreen("F:\\CustomKeybinds\\FFxiv_Login.png", confidence=0.9) #Looks for login prompt on screen
+            isLocated = pyautogui.locateOnScreen("CHANGE DRIVE HERE:\\CHANGE FILEPATH HERE\\FFxiv_Login.png", confidence=0.9) #Looks for login prompt on screen
             if isLocated!=None:
                 break #Break infinite loop
         except:
